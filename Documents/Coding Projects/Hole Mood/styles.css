@@ -1,0 +1,389 @@
+
+/* =====GLOBAL===== */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Alfa Slab One', serif;
+    font-size: 4.5rem;
+    color: white;
+    letter-spacing: 0.3rem;
+}
+
+h2 {
+    margin-top: 1.5%;
+    font-size: 2.5rem;
+
+}
+
+h3 {
+    color: #7f251d;
+    font-size: 2rem;
+    margin: 0;
+}
+
+p {
+    margin: 4% 10%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        color: #7f251d;
+        font-size: 1.2rem;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+
+
+.btn {
+    background: #47afaf;   
+    border-radius: 10px;
+    border-style: none;
+}
+
+.btn:hover {
+    background: #7f251d;
+}
+
+/* =====TITLE===== */
+
+
+    /* =====NAV BAR===== */
+
+    .navbar {
+        background-color: #7f251d;
+        margin-top: 3rem;
+        padding: 25px;
+    }
+
+    .nav-link {
+        color: white;
+        font-weight: 400;
+        letter-spacing: 0.1rem;
+        margin-right: 2.5rem;
+    }
+
+    .nav-cta {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-right: 3.5rem;
+    }
+
+    #hm-logo {
+        height: 12rem;
+        width: auto;
+        position: absolute;
+        left: 5%;
+        top: -3rem;
+    }
+
+    @media (max-width: 800px) {
+        #hm-logo {
+            height: 10rem;
+            width: auto;
+            top: -2rem;
+        }
+    }
+
+   @media (max-width: 425px) {
+       #hm-logo {
+           height: 6rem;
+           width: auto;
+           top: 0rem;
+       }
+   }
+
+    /* =====HERO===== */
+
+    #title {
+        background: url(/Assets/BagelTrayCropped2.png) 50% 0 no-repeat;  
+        background-size: cover;
+        min-height: 700px;
+        padding: 40px 0 0;
+        color: white;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+    }
+
+    @media (max-width: 600px) {
+        #title {
+            min-height: 600px;
+        }
+    }
+
+    .title-message {
+        margin-top: 11rem;
+        line-height: 1.5rem;
+        position: absolute;
+    }
+
+    .title-btn {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+        font-size: 1.8rem;
+        font-weight: 900;
+        padding: 0.5rem 2rem;
+    }
+
+    .screen {
+        background: #333 50%;
+        background-size: cover;
+        min-height: 772px;
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    #title a {
+        color: white;
+        text-decoration: none;
+    }
+
+/* =====ABOUT US===== */
+
+#about-us {
+    position: relative;
+    z-index: 1;
+    background: white;
+    opacity: 1;
+    padding: 100px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+@media (max-width: 800px) {
+    #about-us {
+        padding: 30px 0;
+    }
+
+}
+
+#about-us p {
+    margin-bottom: 0;
+}
+
+.lateral-border {
+    background: gray;
+    border-radius: 2px;
+    width: 40px;
+    margin: 0;
+
+}
+
+.pictures {
+    width: 90%;
+    margin: 5% 10% 0;
+    padding: 0;
+}
+
+.about-us-col {
+    width: 30%;
+    height: auto;
+}
+
+.about-us-pics {
+    width: 100%;
+    height: 99%;
+}
+/* =====HOW IT WORKS VISUAL===== */
+
+#how-it-works-visual {
+    background: url(/Assets/how-it-works4.png) 50% 0 no-repeat;
+    background-size: cover;
+    padding: 100px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+@media (max-width: 800px) {
+    #how-it-works-visual {
+        padding: 30px 0;
+    }
+
+}
+
+.how-it-works-container {
+    margin-top: 4%;
+}
+
+.how-it-works-cards {
+    padding: 0 4%;
+}
+
+.card-icons {
+    width: 30%;
+}
+
+.card-text {
+    padding: 5% 6%;
+    font-size: 1rem;
+}
+
+
+/* =====HOW IT WORKS DESCRIPTION===== */
+
+#how-it-works-description {
+    background: #e3dec1;
+    padding: 100px;
+}
+
+@media (max-width: 800px) {
+    #how-it-works-description {
+        padding: 30px 0;
+    }
+
+}
+
+/* =====MENU===== */
+
+#menu {
+    background: #7f251d;
+    padding: 100px;
+}
+
+@media (max-width: 800px) {
+    #menu {
+        padding: 30px 0;
+    }
+
+}
+
+#menu h3 {
+    color: white;
+}
+
+
+
+.bagel-row {
+    padding-top: 100px;
+}
+
+@media (max-width: 800px) {
+    .bagel-row {
+        padding-top: 30px;
+    }
+
+    .menu-div {
+        padding-top: 30px;
+    }
+}
+
+.menu-div {
+    height: 300px;
+}
+
+.menu-bagels {
+    height: auto;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+p.offset {
+    padding-top: 30px;
+}
+
+.menu-description,
+.menu-mixing {
+    color: white;
+    padding-top: 10px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* =====CONTACT US===== */
+
+#contact-us {
+    background: url(/Assets/poppyBackground.png) 50% 0 no-repeat;
+    background-size: cover;
+    padding: 100px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+@media (max-width: 800px) {
+    #contact-us {
+        padding: 30px 0;
+    }
+
+}
+
+.contact-us-header {
+    color: white;
+}
+
+.contact-us-info {
+    background: white;
+}
+
+#contact-us p {
+    text-align: left;
+    padding: 0;
+    color: white;
+    font-weight: 300;
+}
+
+#contact-form {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+@media (max-width: 800px) {
+    #contact-form {
+        margin: 10%;
+    }
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+label {
+    color: white;
+
+}
+
+.btn-send {
+    margin-top: 20px;
+}
+
+/* =====FOOTER===== */
+
+#footer {
+    background: #e3dec1;
+}
+
+#footer p {
+    font-size: 1rem;
+    font-weight: 100;
+    margin: 0;
+    padding: 30px;
+}
